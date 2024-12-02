@@ -1,6 +1,6 @@
 
 import image from './bg.jpeg'
-import { Link } from 'react-router-dom'
+
 function Hero() {
   return (
     <div className='Hero flex justify-center items-center'>

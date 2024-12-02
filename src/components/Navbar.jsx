@@ -36,7 +36,7 @@ export default function Navbar(){
       
     }, [location]);
     return(
-        <div className=" shadow-sm w-full sticky border-b top-0 py-2 bg-[#000000] z-[10] font-[lato]"> 
+        <div className=" shadow-sm w-full sticky border-b top-0 py-2 bg-[#000000] z-[10] font-[Poppins]"> 
         <nav className="">
             <div className="mx-auto px-4 sm:px-6 lg:px-8 ">
                 <div className="flex items-center justify-between h-16">
@@ -54,12 +54,7 @@ export default function Navbar(){
               {/*  */}
 
               <div className=" hidden md:flex  justify-between items-center p-4 gap-5 mr-[40px] font-[lato]">
-            <Link  to="/" 
-             className={`${activeTab =="home" ? "text-[#7EC5FF]":"text-white "} no-underline font-bold`}
-             
-             >
-              HOME
-            </Link>
+
             <Link  to="/Features"
              className={`${activeTab =="Features" ? "text-[#7EC5FF]":"text-white"}  font-[lato] no-underline font-bold`}    
             >FEATURES

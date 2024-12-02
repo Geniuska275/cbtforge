@@ -61,7 +61,7 @@ function App() {
         width:"55px",
         height:"55px",
         borderRadius:"50%",
-        left:"20px",
+        right:"20px",
         display:"flex",
         alignItems:"center",
         justifyContent:"center",

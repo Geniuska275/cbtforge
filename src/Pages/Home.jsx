@@ -7,13 +7,13 @@ function Home() {
       <Hero/>
       <div className="flex justify-center items-center">
         <div>
-
         <h1 className="font-bold text-2xl text-center mt-4">CBT FORGE</h1>
         <h4 className='p-1 bg-[#7EC5FF] w-[120px]  m-auto mt-1 rounded-full mb-2'></h4>
         <p>Staying at the forefront of Technology to meet modern assessment demands.</p>
         </div>
       </div>
-      <div className="flex justify-around items-center mt-8">
+      
+      <div className="flex justify-around items-center mt-8 services">
 
         <div className="w-[300px] h-[100px]">
           <h2 className="font-bold text-xl mb-2">How It Works</h2>

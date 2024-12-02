@@ -4,7 +4,6 @@ import image from './bg.jpeg'
 function Hero() {
   return (
     <div className='Hero flex justify-center items-center'>
-
         <img src={image} className='video'/>
         <div className='bg-overlay'></div>
         <div className='display '>

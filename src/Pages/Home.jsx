@@ -1,8 +1,11 @@
+import Hero from "../components/Header";
 
 
 function Home() {
   return (
-    <div>Home</div>
+    <div>
+      <Hero/>
+    </div>
   )
 }
 

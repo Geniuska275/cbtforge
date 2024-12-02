@@ -89,8 +89,8 @@ export default function Navbar(){
              className={`${activeTab =="Contact" ? "text-[#7EC5FF]":"text-white"}  font-[lato] no-underline font-bold`}    
             >
 
-         <button className="bg-[#7EC5FF] md:ml-8 rounded-lg 
-           font-[lato] px-3 py-2 text-white shadow-lg hover:bg-black hover:border duration-500">SIGN UP</button>
+         <button className="bg-black border md:ml-8 rounded-lg 
+           font-[lato] px-3 py-2 text-white shadow-lg hover:bg-[#7EC5FF] hover:text-black duration-500">SIGN UP</button>
         
            </Link>
         <Link  to='/Login'>

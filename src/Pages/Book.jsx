@@ -24,7 +24,7 @@ function Book() {
                 <h4 className="text-md text-[#7EC5FF] font-bold font-[Poppins]">Message<sup>*</sup></h4>
                 <input type="text" className="w-full px-16 py-8 mt-3 rounded-lg border-2 border-gray-300 focus:outline-none focus:border-[#7EC5FF]" placeholder="Enter a Message..."/>
               </div>
-              <button className="w-[340px] mt-3 m-auto py-2 bg-[#7EC5FF] text-black ml-[80px] border-none rounded shadow">BOOK A DEMO</button>
+              <button className="w-[340px] mt-3 m-auto py-2 bg-[#7EC5FF] text-black ml-[80px] border-none rounded shadow hover:bg-black hover:text-white hover:border-white">BOOK A DEMO</button>
 
 
 

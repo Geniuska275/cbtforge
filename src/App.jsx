@@ -1,11 +1,102 @@
 
-function App() {
-  
 
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+ 
+} from "react-router-dom";
+
+import { FaWhatsapp } from "react-icons/fa";
+import { motion } from "framer-motion"
+import Home from "./Pages/Home";
+import About from "./Pages/About";
+import Product from "./Pages/Product";
+import Contact from "./Pages/Contact";
+import Features from "./Pages/Features";
+import Pricing from "./Pages/Pricing";
+import Book from "./Pages/Book";
+import Tryforfree from "./Pages/Tryfofree";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
+import Signup from "./Authentication/Signup";
+import Login from "./Authentication/Login";
+
+
+
+
+
+
+
+
+
+
+
+function App() {
   return (
-    <>
-      <h1 className='text-center text-red-400'>Welcome to CBTforge.</h1>
-    </>
+    <Router>
+      <Navbar/>
+    <Routes>
+      <Route path="/" element={<Home/>} />
+      <Route path="/Features" element={<Features/>} />
+
+      <Route path="/About" element={<About/>} />
+      <Route path="/Product" element={<Product/>} />
+      <Route path="/Contact" element={<Contact/>} />
+      <Route path="/Features" element={<Features/>} />
+      <Route path="/Pricing" element={<Pricing/>} />
+      <Route path="/Book" element={<Book/>} />
+      <Route path="/Tryforfree" element={<Tryforfree/>} />
+      <Route path="/SignUp" element={<Signup/>} />
+      <Route path="/Login" element={<Login/>} />
+
+      <Route path="/Tryforfree" element={<Tryforfree/>} />
+
+      
+    </Routes>
+    <div style={{
+        position:"fixed",
+        bottom:"70px",
+        background:" #37CA2A",
+        width:"55px",
+        height:"55px",
+        borderRadius:"50%",
+        left:"20px",
+        display:"flex",
+        alignItems:"center",
+        justifyContent:"center",
+        zIndex:1000
+       
+
+      }}>
+
+         <div
+        style={{
+          width:"45px",
+        height:"45px",
+        borderRadius:"50%",
+        borderWidth:"2px",
+        display:"flex",
+        alignItems:"center",
+        justifyContent:"center"
+        }}
+        >
+        <a href="https://wa.me/+2348145544903">     
+        <FaWhatsapp color='white' size={25} />
+      </a>
+        </div>
+      </div>
+
+      <motion.div 
+           whileInView={{opacity:1,y:0}}
+           initial={{opacity:0,y:100}}
+           transition={{duration:0.5}}>
+      <Footer/>
+      </motion.div>
+    
+  </Router>
+
+   
   )
 }
 

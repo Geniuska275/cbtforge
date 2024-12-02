@@ -65,7 +65,7 @@ export default function Navbar(){
             >FEATURES
             </Link>
             <Link  to="/About"
-             className={`${activeTab =="About-Us" ? "text-[#7EC5FF]":"text-white"}  font-[lato] no-underline font-bold`}    
+             className={`${activeTab =="About" ? "text-[#7EC5FF]":"text-white"}  font-[lato] no-underline font-bold`}    
             >ABOUT
             </Link>
             <Link  to="/Product"
@@ -138,20 +138,28 @@ export default function Navbar(){
                 <div className="md:hidden mt-5 border-t font-[lato] bg-black w-full flex z-[10] justify-center items-center">
     
         <div className=" flex flex-col justify-center items-center p-4 ">
+        <Link  to="/" onClick={()=>setIsOpen(false)}
+             className={`${activeTab =="home" ? "text-[#7EC5FF]":"text-white"} no-underline font-bold`}    
+            >HOME
+            </Link>
+            <Link  to="/Features" onClick={()=>setIsOpen(false)}
+             className={`${activeTab =="Features" ? "text-[#7EC5FF]":"text-white"} no-underline font-bold`}    
+            >FEATURES
+            </Link>
             <Link  to="/About" onClick={()=>setIsOpen(false)}
              className={`${activeTab =="About" ? "text-[#7EC5FF]":"text-white"} no-underline font-bold`}    
             >ABOUT
             </Link>
-            <Link  to="/Services" onClick={()=>setIsOpen(false)}
-             className={`${activeTab =="Services" ? "text-[#7EC5FF]":"text-white"} no-underline font-bold`}    
+            <Link  to="/Pricing" onClick={()=>setIsOpen(false)}
+             className={`${activeTab =="Pricing" ? "text-[#7EC5FF]":"text-white"} no-underline font-bold`}    
             >PRICING
             </Link>
             <Link  to="/Products" onClick={()=>setIsOpen(false)}
-             className={`${activeTab =="Products" ? "text-[#37CA2A]":"text-[#4A4E55]"} no-underline font-bold`}    
+             className={`${activeTab =="Products" ? "text-[#7EC5FF]":"text-white"} no-underline font-bold`}    
             >PRODUCT
             </Link>
             <Link  to="/Contact" onClick={()=>setIsOpen(false)}
-             className={`${activeTab =="Contact" ? "text-[#37CA2A]":"text-[#4A4E55]"} no-underline font-bold`}    
+             className={`${activeTab =="Contact" ? "text-[#7EC5FF]":"text-white"} no-underline font-bold`}    
             >CONTACT
             </Link>
             
@@ -159,12 +167,13 @@ export default function Navbar(){
       
         <div className="flex justify-evenly items-center gap-3 mt-2">
       
-        <a href="https://wa.me/+2348145544903"> 
-         <button className="bg-[#7EC5FF] md:ml-8 rounded-md border   font-[lato] px-6 py-2 text-white shadow-lg hover:bg-black duration-500">SIGN UP</button>
-         </a>
-         <a href="https://wa.me/+2348145544903"> 
+        <Link to='/Signup'>
+         <button className="bg-black md:ml-8 rounded-md border   font-[lato] px-6 py-2 text-white shadow-lg hover:bg-[#7EC5FF] duration-500">SIGN UP</button>
+        </Link>
+         <Link to="/Login">
          <button className="bg-[#7EC5FF] md:ml-8 rounded-md border  font-[lato] px-6 py-2 text-white shadow-lg hover:bg-black duration-500">LOGIN</button>
-         </a>
+         </Link>
+         
         </div>
 
         </div>

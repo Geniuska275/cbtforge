@@ -45,7 +45,7 @@ function App() {
       <Route path="/Contact" element={<Contact/>} />
       <Route path="/Features" element={<Features/>} />
       <Route path="/Pricing" element={<Pricing/>} />
-      <Route path="/Book" element={<Book/>} />
+      <Route path="/Book-for-a-demo" element={<Book/>} />
       <Route path="/Tryforfree" element={<Tryforfree/>} />
       <Route path="/SignUp" element={<Signup/>} />
       <Route path="/Login" element={<Login/>} />
@@ -86,6 +86,7 @@ function App() {
       </a>
         </div>
       </div>
+
 
       <motion.div 
            whileInView={{opacity:1,y:0}}

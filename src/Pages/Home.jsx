@@ -1,4 +1,5 @@
 import Hero from "../components/Header";
+import Book from "./Book";
 
 
 function Home() {
@@ -12,8 +13,8 @@ function Home() {
         <p>Staying at the forefront of Technology to meet modern assessment demands.</p>
         </div>
       </div>
-      
-      <div className="flex justify-around items-center mt-8 services">
+
+      <div className="flex justify-around items-center mb-[200px] mt-8 ">
 
         <div className="w-[300px] h-[100px]">
           <h2 className="font-bold text-xl mb-2">How It Works</h2>
@@ -30,18 +31,16 @@ function Home() {
           </p>
           
         </div>
+
         <div className="w-[300px] h-[100px]">
           <h2 className="font-bold text-xl mb-2">Why Cbt Forge ?</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos culpa illum ratione non reiciendis omnis voluptatum, temporibus est a deserunt explicabo. Perspiciatis et cumque fugiat laudantium iure magnam iusto modi!
           </p>
-          
-
         </div>
 
-       
-
       </div>
+      <Book/>
     </div>
   )
 }

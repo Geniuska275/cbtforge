@@ -1,5 +1,6 @@
 import Hero from "../components/Header";
 import Book from "./Book";
+import Features from "./Features";
 
 
 function Home() {
@@ -41,6 +42,7 @@ function Home() {
 
       </div>
       <Book/>
+      <Features/>
     </div>
   )
 }

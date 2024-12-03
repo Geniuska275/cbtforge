@@ -15,7 +15,7 @@ function Home() {
         </div>
       </div>
 
-      <div className="flex justify-around items-center mb-[200px] mt-8 ">
+      <div className="flex justify-around flex-wrap items-center mb-[200px] mt-8 ">
 
         <div className="w-[300px] h-[100px]">
           <h2 className="font-bold text-xl mb-2">How It Works</h2>

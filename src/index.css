@@ -6,9 +6,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.input{
+  width: 200px;
+  padding: 10px;
+  box-shadow: 10px 10px  rgba(0, 0, 0, 0);
+  border-radius: 10px;
+}
 body{
     font-family: lato,sans-serif;
     background-color: #ffffff;
+    padding: 0px;
+    margin: 0;
 }
 
 .loader{

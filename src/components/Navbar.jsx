@@ -55,6 +55,10 @@ export default function Navbar(){
 
               <div className=" hidden md:flex  justify-between items-center p-4 gap-5 mr-[40px] font-[lato]">
 
+            <Link  to="/"
+             className={`${activeTab =="home" ? "text-[#7EC5FF]":"text-white"}  font-[lato] no-underline font-bold`}    
+            >HOME
+            </Link>
             <Link  to="/Features"
              className={`${activeTab =="Features" ? "text-[#7EC5FF]":"text-white"}  font-[lato] no-underline font-bold`}    
             >FEATURES

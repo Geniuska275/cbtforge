@@ -19,14 +19,14 @@ function Features() {
 
       </div>
 
-      <div  className="w-[400px] h-[350px] bg-[#8D8989] p-5 shadow-lg rounded-b-3xl">
+      <div  className="w-[350px] h-[350px] bg-[#8D8989] p-5 shadow-lg rounded-b-3xl">
       <div className="flex justify-evenly gap-3 mt-2">
           <h1 className="ml-2 bg-black w-10 h-10">icon</h1>
           <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, et natus aperiam hic deserunt esse nam libero saepe nulla ad doloremque ducimus tenetur non voluptatibus. Esse doloremque mollitia libero quibusdam.</p>
         </div> 
         <div className="flex justify-evenly gap-3 mt-2">
           <h1 className="ml-2 bg-black w-10 h-10">icon</h1>
-          <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, et natus aperiam hic deserunt esse nam libero saepe nulla ad doloremque ducimus tenetur non voluptatibus. Esse doloremque mollitia libero quibusdam.</p>
+          <p> Lorem  Ab, et natus aperiam hic deserunt esse nam libero saepe nulla ad doloremque ducimus tenetur non voluptatibus. Esse doloremque mollitia libero quibusdam.</p>
         </div> 
      
 

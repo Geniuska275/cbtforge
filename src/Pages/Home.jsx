@@ -1,5 +1,6 @@
 import Hero from "../components/Header";
 import Book from "./Book";
+import Contact from "./Contact";
 import Features from "./Features";
 
 
@@ -54,6 +55,7 @@ function Home() {
         <p className="text-white mt-2 font-bold">By Clicking sign up you are confirming that you agree to our terms and conditions.</p>
 
       </div>
+      <Contact/>
     </div>
   )
 }

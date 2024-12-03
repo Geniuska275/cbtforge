@@ -1,5 +1,5 @@
 
-
+import './App.css'
 import {
   BrowserRouter as Router,
   Routes,
@@ -46,7 +46,7 @@ function App() {
       <Route path="/Features" element={<Features/>} />
       <Route path="/Pricing" element={<Pricing/>} />
       <Route path="/Book-for-a-demo" element={<Book/>} />
-      <Route path="/Tryforfree" element={<Tryforfree/>} />
+      <Route path="/Try-for-free" element={<Tryforfree/>} />
       <Route path="/SignUp" element={<Signup/>} />
       <Route path="/Login" element={<Login/>} />
 

@@ -21,6 +21,7 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Signup from "./Authentication/Signup";
 import Login from "./Authentication/Login";
+import ForgottenPassword from './Authentication/ForgottenPassword';
 
 
 
@@ -49,6 +50,8 @@ function App() {
       <Route path="/Try-for-free" element={<Tryforfree/>} />
       <Route path="/SignUp" element={<Signup/>} />
       <Route path="/Login" element={<Login/>} />
+      <Route path="/ForgotPassword" element={<ForgottenPassword/>} />
+
 
       <Route path="/Tryforfree" element={<Tryforfree/>} />
 

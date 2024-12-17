@@ -22,6 +22,7 @@ import Footer from "./components/Footer";
 import Signup from "./Authentication/Signup";
 import Login from "./Authentication/Login";
 import ForgottenPassword from './Authentication/ForgottenPassword';
+import AdminDashboard from './Pages/AdminDashboard';
 
 
 
@@ -54,6 +55,7 @@ function App() {
 
 
       <Route path="/Tryforfree" element={<Tryforfree/>} />
+      <Route path="/AdminDashboard" element={<AdminDashboard/>}/>
 
       
     </Routes>

@@ -3,7 +3,7 @@ import { FaTimes, FaBars } from "react-icons/fa";
 // import logo from "./real.jpeg";
 import { Link, useLocation} from "react-router-dom";
 import { useState, useEffect } from "react";
-
+import image from "./cbt.png"
 
 
 
@@ -36,15 +36,15 @@ export default function Navbar(){
       
     }, [location]);
     return(
-        <div className=" shadow-sm w-full sticky border-b top-0 py-2 bg-[#000000] z-[10] font-[Poppins]"> 
+        <div className=" shadow-sm w-full sticky shadow-3xl top-0 py-2 bg-[#000000] z-[10] font-[Poppins]"> 
         <nav className="">
             <div className="mx-auto px-4 sm:px-6 lg:px-8 ">
                 <div className="flex items-center justify-between h-16">
-                    {/* navbar logo */}
                 <Link to="/">
                 <div className="flex gap-1 items-center ">
+                    <img src={image}  className="rounded-full w-10 h-10 shadow"/>
 
-                <span  className="w-10 h-10 rounded-full"></span>
+              
                 <h1 className="font-[lato] text-[#7EC5FF] font-bold text-2xl ">CBT-FORGE.</h1>
                 </div>
                 </Link>

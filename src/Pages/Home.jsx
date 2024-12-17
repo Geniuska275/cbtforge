@@ -5,6 +5,7 @@ import Features from "./Features";
 
 
 function Home() {
+
   return (
     <div>
       <Hero/>

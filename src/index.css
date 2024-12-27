@@ -39,7 +39,6 @@ body{
     height: 100vh;
     flex-direction: column;
     display: flex;
-    
     position: relative;
     transition: 0.5s;
     font-family: lato,sans-serif;
@@ -387,11 +386,13 @@ body{
         margin-bottom: 20px;
     }
     .text{
-      font-size: 20px;
+      font-size: 18px;
       text-align: center;
+      
+
     }
     .tests{
-      font-size: 15px;
+      font-size: 12px;
       text-align: center;
     }
     .small{
@@ -400,6 +401,7 @@ body{
     .tests{
       font-size: 25px;
       text-align: center;
+      margin-top: 60px;
     }
     .btn{
       width: 200px;
@@ -413,6 +415,12 @@ body{
     .bt{
       width: 150px;
     }
+    .ma{
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+     
+    }
     .input{
       width: 150px;
     }
@@ -420,5 +428,15 @@ body{
       display: flex;
       flex-wrap: wrap;
       margin-right: 160px;
+    }
+    .Hero{
+      height: 60vh;
+    }
+    .display{
+      height: 60vh;
+
+    }
+    .video{
+      height: 60vh;
     }
   }

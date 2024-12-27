@@ -11,21 +11,21 @@ function Forge() {
         <p className="text-center">Staying at the forefront of Technology to meet modern assessment demands.</p>
         </div>
         <div className="flex flex-wrap justify-around gap-6 mt-5">
-        <div className="w-[200px]">
+        <div className="w-[300px]">
           <h2 className="font-bold text-xl ">How It Works</h2>
           <p className='small mt-3 '>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos culpa illum ratione non reiciendis omnis voluptatum, temporibus est a deserunt explicabo. 
           </p>
         </div>
 
-        <div className="w-[200px] ">
+        <div className="w-[300px] ">
           <h2 className="font-bold text-xl">What are People Saying ?</h2>
           <p  className="mt-3 small bg-gray-300 rounded p-4">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos culpa illum ratione non reiciendis omnis voluptatum, temporibus est a deserunt explicabo. Perspiciatis et cumque fugiat laudantium iure magnam iusto modi!
           </p>
         </div>
 
-        <div className="w-[200px]">
+        <div className="w-[300px]">
           <h2 className="font-bold text-xl ">Why Cbt Forge ?</h2>
           <p className='mt-3 '>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos culpa illum ratione non reiciendis omnis voluptatum, temporibus est a deserunt explicabo. Perspiciatis et cumque fugiat laudantium iure magnam iusto modi!

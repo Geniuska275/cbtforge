@@ -424,6 +424,9 @@ body{
     .ml{
       margin-left: 100px;
     }
+    .mls{
+      margin-left: 60px;
+    }
     .input{
       width: 150px;
     }
@@ -443,6 +446,6 @@ body{
       height: 60vh;
     }
     h4{
-      margin-left: 30px;
+      margin-left: 25px;
     }
   }

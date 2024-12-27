@@ -16,8 +16,8 @@ function Login() {
         <img src={image} className='video'/>
         <div className='bg-overlay'></div>
         <div className='display '>
-          <h1 className="font-bold text-3xl text-white font-[Poppins] mt-3">Are you ready for the CBT FORGE Mobile App ?</h1>
-          <p className="text-white mt-3 font-[Poppins]">We are working on the mobile application for iphone,ipad and Android .<br></br>This will give your examiners more options on where to take exams.</p>
+          <h1 className="lg font-bold text-3xl text-white font-[Poppins] mt-3">Are you ready for the CBT FORGE Mobile App ?</h1>
+          <p className="small text-white mt-3 font-[Poppins]">We are working on the mobile application for iphone,ipad and Android .<br></br>This will give your examiners more options on where to take exams.</p>
                  </div> 
     </div>
     </div>

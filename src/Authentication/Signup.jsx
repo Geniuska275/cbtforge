@@ -23,24 +23,24 @@ function Signup() {
           <p>Create CBT Forge Account</p>
         
          <label className='ml-0 mb-0'>Name</label><br></br>
-        <input type="text" className="w-[200px] mr-2 px-6 py-2 mt-3 rounded-lg border-2 border-gray-300 focus:outline-none focus:border-[#7EC5FF]" placeholder="Enter your email"/>
-        <input type="text" className="w-[200px] px-6 py-2 mt-3 rounded-lg border-2 border-gray-300 focus:outline-none focus:border-[#7EC5FF]" placeholder="Enter your email"/><br></br>
+        <input type="text" className="in w-[200px] mr-2 px-6 py-2 mt-3 rounded-lg border-2 border-gray-300 focus:outline-none focus:border-[#7EC5FF]" placeholder="Enter your firstname"/>
+        <input type="text" className="in w-[200px] px-6 py-2 mt-3 rounded-lg border-2 border-gray-300 focus:outline-none focus:border-[#7EC5FF]" placeholder="Enter your lastname"/><br></br>
 
         <label className='ml-0 mb-0'>Organization</label><br></br>
 
-        <input type="text" className="w-[410px] px-6 py-2 mt-3 rounded-lg border-2 border-gray-300 focus:outline-none focus:border-[#7EC5FF]" placeholder="New Password"/><br></br>
-        <label className='in ml-0 mb-0'>Email</label><br></br>
-        <input type="text" className="w-[410px] px-6 py-2 mt-3 rounded-lg border-2 border-gray-300 focus:outline-none focus:border-[#7EC5FF]" placeholder="Confirm Password"/><br></br>
-        <label className='in ml-0 mb-0'>Password</label><br></br>
-        <input type="password" className="w-[410px] px-6 py-2 mt-3 rounded-lg border-2 border-gray-300 focus:outline-none focus:border-[#7EC5FF]" placeholder="Confirm Password"/><br></br>
+        <input type="text" className="in w-[410px] px-6 py-2 mt-3 rounded-lg border-2 border-gray-300 focus:outline-none focus:border-[#7EC5FF]" placeholder="New Password"/><br></br>
+        <label className=' ml-0 mb-0'>Email</label><br></br>
+        <input type="text" className="in w-[410px] px-6 py-2 mt-3 rounded-lg border-2 border-gray-300 focus:outline-none focus:border-[#7EC5FF]" placeholder="Confirm Password"/><br></br>
+        <label className='ml-0 mb-0'>Password</label><br></br>
+        <input type="password" className="in w-[410px] px-6 py-2 mt-3 rounded-lg border-2 border-gray-300 focus:outline-none focus:border-[#7EC5FF]" placeholder="Confirm Password"/><br></br>
         <label className='ml-0 mb-0'>Re-enter Password</label><br></br>
-        <input type="password" className=" in w-[410px] px-6 py-2 mt-3 rounded-lg border-2 border-gray-300 focus:outline-none focus:border-[#7EC5FF]" placeholder="Confirm Password"/><br></br>
+        <input type="password" className="in w-[410px] px-6 py-2 mt-3 rounded-lg border-2 border-gray-300 focus:outline-none focus:border-[#7EC5FF]" placeholder="Confirm Password"/><br></br>
         <div className="flex gap-2 mt-3  ml-1 items-center">
             <input type="checkbox" className="mb-6" />
             <p>By clicking Sign Up ,you agree to our Terms <br></br> and Conditions that you have read our Privacy Policy.</p>
           </div>
 
-       <button className=" rounded py-2 w-[400px] bg-[#7EC5FF] font-bold  font-[Poppins] mt-4 hover:bg-black hover:text-white hover:border ">SIGN ME IN</button>
+       <button className=" in rounded py-2 w-[400px] bg-[#7EC5FF] font-bold  font-[Poppins] mt-4 hover:bg-black hover:text-white hover:border ">SIGN ME IN</button>
         <p className="mt-3 ">Already a member ? Click <span className="text-[#7EC5FF]">here</span> to Login .</p>
 
 

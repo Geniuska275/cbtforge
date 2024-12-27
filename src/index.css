@@ -407,7 +407,7 @@ body{
       width: 200px;
     }
     .btns{
-      width: 220px;
+      width: 260px;
     }
     .btnss{
       width: 300px;
@@ -420,6 +420,9 @@ body{
       display: flex;
       flex-direction: column;
      
+    }
+    .ml{
+      margin-left: 100px;
     }
     .input{
       width: 150px;
@@ -438,5 +441,8 @@ body{
     }
     .video{
       height: 60vh;
+    }
+    h4{
+      margin-left: 40px;
     }
   }

@@ -166,10 +166,10 @@ export default function Navbar(){
       
         <div className="flex justify-evenly items-center gap-3 mt-2">
       
-        <Link to='/Signup'>
+        <Link to='/Signup' onClick={()=>setIsOpen(false)}  >
          <button className="bg-black md:ml-8 rounded-md border   font-[lato] px-6 py-2 text-white shadow-lg hover:bg-[#7EC5FF] duration-500">SIGN UP</button>
         </Link>
-         <Link to="/Login">
+         <Link to="/Login" onClick={()=>setIsOpen(false)}>
          <button className="bg-[#7EC5FF] md:ml-8 rounded-md border  font-[lato] px-6 py-2 text-white shadow-lg hover:bg-black duration-500">LOGIN</button>
          </Link>
          

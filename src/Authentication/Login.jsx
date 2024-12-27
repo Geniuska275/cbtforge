@@ -3,6 +3,8 @@ import { FaRegEye } from "react-icons/fa";
 import { FaRegEyeSlash } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import image from "./bg3.jpeg"
+import images from "../components/cbt.png"
+
 
 function Login() {
   const [show,setShow]=useState(true)
@@ -22,14 +24,15 @@ function Login() {
       <div className="bg-white p-4 flex ">
         <form className="mt-[160px] ml-4">
           <div className="flex gap-2 items-center">
-            <h1 className="rounded-full w-10 h-10 bg-gray-400"></h1>
+      <img src={images}  className="rounded-full w-10 h-10 shadow"/>
+          
             <h1 className="font-bold text-xl">CBT FORGE</h1>
           </div>
           <p className="mt-2 ml-1">Login to your Organization.</p>
           <input type="text" className="w-[300px] px-6 py-2 mt-3 rounded-lg border-2 border-gray-300 focus:outline-none focus:border-[#7EC5FF]" placeholder="Email Address"/><br></br>
-          <div style={{position:'relative'}}>
-            {show ?<FaRegEye style={{position:"absolute",right:"20px",top:"25px",fontSize:"20px"}} onClick={()=>setShow(prev=>!prev)}/>:
-            <FaRegEyeSlash style={{position:"absolute",right:"20px",top:"25px",fontSize:"20px"}} onClick={()=>setShow(prev=>!prev)}/>}
+          <div style={{position:'relative'}} >
+            {show ?<FaRegEye className="eye" style={{position:"absolute",right:"20px",top:"25px",fontSize:"20px"}} onClick={()=>setShow(prev=>!prev)}/>:
+            <FaRegEyeSlash className="eye" style={{position:"absolute",right:"20px",top:"25px",fontSize:"20px"}} onClick={()=>setShow(prev=>!prev)}/>}
 
           <input type={show ? 'text' :'password'} className="w-[300px] px-6 py-2 mt-3 rounded-lg border-2 border-gray-300 focus:outline-none focus:border-[#7EC5FF]" placeholder="Password"/>
           </div>

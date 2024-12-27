@@ -10,11 +10,11 @@ function Contact() {
 
       <form>
         <label>Your Name</label><br></br>
-        <input className="input" placeholder="Enter Your Name"/><br></br>
+        <input className=" bt input" placeholder="Enter Your Name"/><br></br>
         <label>Your Email</label><br></br>
-        <input  className="input"  placeholder="Enter Your Email" /><br></br>
+        <input  className="bt input"  placeholder="Enter Your Email" /><br></br>
         <label>Your Message</label><br></br>
-        <textarea className="input h-[150px]"  placeholder="Enter Your Message...">
+        <textarea className="bt input h-[150px]"  placeholder="Enter Your Message...">
 
         </textarea><br></br>
         <div className="flex gap-2 ">
@@ -22,7 +22,7 @@ function Contact() {
         <input type="checkbox"  />
         <h4 className="font-bold">Agree to terms</h4>
         </div>
-        <button className=" rounded-xl py-3 w-[350px] bg-[#7EC5FF] font-bold mt-2 font-[Poppins] hover:bg-black hover:text-white hover:border">Send Message</button>
+        <button className=" bt rounded-xl py-3 w-[350px] bg-[#7EC5FF] font-bold mt-2 font-[Poppins] hover:bg-black hover:text-white hover:border">Send Message</button>
 
 
 

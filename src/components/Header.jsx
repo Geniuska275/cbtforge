@@ -1,13 +1,15 @@
 
 import image from './bg.jpeg'
-
+// import { ReactTyped } from "react-typed";
 function Hero() {
   return (
     <div className='Hero flex justify-center items-center'>
         <img src={image} className='video'/>
         <div className='bg-overlay'></div>
         <div className='display '>
-          <h1 className='font-bold text-6xl text-center text-white font-[Poppins]'><span className='text-[#7EC5FF]'>WELCOME</span> TO CBT FORGE</h1>
+     
+         <marquee> <h1 className='font-bold text-6xl text-center text-white font-[Poppins]'>
+            <span className='text-[#7EC5FF]'>WELCOME</span> TO CBT FORGE</h1></marquee>
            <h2 className='font-bold text-white text-center text-3xl mt-4 font-[Poppins]'>Multi-purpose Cloud-Based Assessment Platform</h2>
             <p className='text-white text-center text-xl mt-3 font-[Poppins]'>We have created a multi-purpose LMS for Organizational needs.</p>
            

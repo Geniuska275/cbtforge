@@ -40,7 +40,7 @@ export default function Navbar(){
         <nav className="">
             <div className="mx-auto px-4 sm:px-6 lg:px-8 ">
                 <div className="flex items-center justify-between h-16">
-                <Link to="/">
+                <Link to="/"  onClick={()=>setIsOpen(false)}>
                 <div className="flex gap-1 items-center ">
                     <img src={image}  className="rounded-full w-10 h-10 shadow"/>
 

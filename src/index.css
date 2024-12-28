@@ -357,6 +357,9 @@ body{
         margin-bottom: 10px;
 
     }
+    .form{
+      margin-right: 60px;
+    }
     .sizes{
         width: 320px;
         margin: auto;
@@ -375,6 +378,11 @@ body{
         margin-top: 20px;
         
     }
+   .inp{
+    width: 50px;
+    border:2px solid red;
+    margin-right: 10px;
+   }
     .push{
         margin-right: 100px;
     }
@@ -404,7 +412,7 @@ body{
       margin-top: 60px;
     }
     .btn{
-      width: 200px;
+      width: 180px;
     }
     .btns{
       width: 260px;
@@ -432,9 +440,7 @@ body{
     .mls{
       margin-left: 60px;
     }
-    .input{
-      width: 150px;
-    }
+   
     .column{
       display: flex;
       flex-wrap: wrap;

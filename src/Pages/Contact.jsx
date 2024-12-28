@@ -8,19 +8,19 @@ function Contact() {
       <p className="text-center">Have a question or need an assistance ? we are here to help.</p>
       <div className="flex justify-center items-center mt-5">
 
-      <form>
+      <form className="form">
         <label>Your Name</label><br></br>
-        <input className=" bt input" placeholder="Enter Your Name"/><br></br>
+        <input className="input" placeholder="Enter Your Name"/><br></br>
         <label>Your Email</label><br></br>
-        <input  className="bt input"  placeholder="Enter Your Email" /><br></br>
+        <input  className=" input"  placeholder="Enter Your Email" /><br></br>
         <label>Your Message</label><br></br>
-        <textarea className="bt input h-[150px]"  placeholder="Enter Your Message...">
+        <textarea className=" input h-[150px]"  placeholder="Enter Your Message...">
 
         </textarea><br></br>
-        <div className="flex gap-2 ">
+        <div className="flex  ">
 
         <input type="checkbox"  />
-        <h4 className="font-bold">Agree to terms</h4>
+        <span className="font-bold ml-1">Agree to terms and conditions.</span>
         </div>
         <button className=" bt rounded-xl py-3 w-[350px] bg-[#7EC5FF] font-bold mt-2 font-[Poppins] hover:bg-black hover:text-white hover:border">Send Message</button>
 

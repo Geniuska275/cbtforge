@@ -4,7 +4,7 @@ function Footer() {
     <div className="bg-black text-white font-bold font-[Poppins] p-[60px] mt-3">
       <div className="flex justify-between flex-wrap items-center">
 
-        <img src={image} className="rounded-full w-[100px] h-[100px] bg-[#7EC5FF] flex justify-center items-center" />
+        <img src={image} className="rounded-full w-[100px] h-[100px] bg-[#7EC5FF] flex justify-center items-center mb-3" />
        
        <div className="flex gap-[50px]">
         <div>

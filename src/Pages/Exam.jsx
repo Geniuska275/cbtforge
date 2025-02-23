@@ -2,6 +2,7 @@ import { useEffect, useState } from "react"
 
 
 const Exam = () => {
+    const [show,setShow]=useState(false)
     const [currentQuestionIndex, setCurrentQuestionIndex]=useState(0)
     const [disabled,setDisabled]=useState(false)
     const [score,setScore]=useState(0)
@@ -138,16 +139,34 @@ const [questions,setQuestions]=useState([
                         className="bg-[#7EC5FF] md:ml-8 rounded-lg 
            font-[lato] px-6 py-2 text-white shadow-lg hover:bg-black hover:border duration-500 mr-5"
                          onClick={()=>{
-                            alert("end of exam")
-                        }}>submit</button>:<button  disabled={disabled}
+                            setShow(true)
+                        }}>start theory</button>:<button  disabled={disabled}
                         className={`bg-[#7EC5FF] md:ml-8 rounded-lg 
            font-[lato] px-3 py-2 text-white shadow-lg hover:bg-black hover:border duration-500 mr-5 ${disabled ? "bg-slate-500":""}`}
                          onClick={()=>{
                             setCurrentQuestionIndex(currentQuestionIndex + 1)
                         }}>Next Question</button>}
                     </div>
-            
             </div>
+           {show && <div className="mt-4" >
+            <h1 className="text-center">THEORY</h1>
+            <div className="flex justify-center items-center">
+
+            <textarea type="text" className="btns w-[500px] h-[300px] ml-5 px-16 py-2 rounded-lg border-2 border-gray-300 focus:outline-none focus:border-[#7EC5FF] m-3"/>
+            </div>
+            <div className="flex justify-end items-center">
+                <h2>Finished Exam ?</h2>
+                <button 
+                       className="bg-[#7EC5FF] md:ml-8 rounded-lg 
+           font-[lato] mr-5 px-6 py-2 text-white shadow-lg hover:bg-black hover:border duration-500"
+                       onClick={()=>{
+                           
+                            alert('your score is 40%')
+                        }}>SUBMIT</button>
+            </div>
+
+
+            </div>}
         </div>
 
 

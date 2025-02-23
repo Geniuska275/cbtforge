@@ -83,6 +83,10 @@ export default function Navbar(){
              className={`${activeTab =="Try-for-free" ? "text-[#7EC5FF]":"text-white"}  font-[lato] no-underline font-bold`}    
             >TRY FOR FREE
             </Link>
+            <Link  to="/Exam"
+             className={`${activeTab =="Book-for-a-demo" ? "text-[#7EC5FF]":"text-white"}  font-[lato] no-underline font-bold`}    
+            >EXAM
+            </Link>
             <Link  to="/Contact"
              className={`${activeTab =="Contact" ? "text-[#7EC5FF]":"text-white"}  font-[lato] no-underline font-bold`}    
             >CONTACT

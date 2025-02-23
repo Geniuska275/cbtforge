@@ -23,6 +23,7 @@ import Signup from "./Authentication/Signup";
 import Login from "./Authentication/Login";
 import ForgottenPassword from './Authentication/ForgottenPassword';
 import AdminDashboard from './Pages/AdminDashboard';
+import Exam from './Pages/Exam';
 
 
 
@@ -55,8 +56,8 @@ function App() {
 
 
       <Route path="/Tryforfree" element={<Tryforfree/>} />
+      <Route path="/Exam" element={<Exam/>} />
       <Route path="/AdminDashboard" element={<AdminDashboard/>}/>
-
       
     </Routes>
     <div style={{

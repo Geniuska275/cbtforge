@@ -32,7 +32,7 @@ function Footer() {
 
 
       </div>
-      <h1 className="text-center mt-4">@CBT Forge 2024.All rights reserved.</h1>
+      <h1 className="text-center mt-4">@CBT Forge {new Date().getFullYear()}.All rights reserved.</h1>
 
 
     </div>

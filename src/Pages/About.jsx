@@ -1,7 +1,9 @@
-
+import Forge from "../components/Forge";
 function About() {
   return (
-    <div>About</div>
+    <div>
+      <Forge/>
+    </div>
   )
 }
 

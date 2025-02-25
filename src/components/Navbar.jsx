@@ -32,6 +32,8 @@ export default function Navbar(){
     setActiveTab("Try-for-free");
   }else if (location.pathname=="/Features") {
     setActiveTab("Features");
+  }else if (location.pathname=="/Exam") {
+    setActiveTab("Exam");
   }
       
     }, [location]);
@@ -84,7 +86,7 @@ export default function Navbar(){
             >TRY FOR FREE
             </Link>
             <Link  to="/Exam"
-             className={`${activeTab =="Book-for-a-demo" ? "text-[#7EC5FF]":"text-white"}  font-[lato] no-underline font-bold`}    
+             className={`${activeTab =="Exam" ? "text-[#7EC5FF]":"text-white"}  font-[lato] no-underline font-bold`}    
             >EXAM
             </Link>
             <Link  to="/Contact"
@@ -164,6 +166,10 @@ export default function Navbar(){
             <Link  to="/Contact" onClick={()=>setIsOpen(false)}
              className={`${activeTab =="Contact" ? "text-[#7EC5FF]":"text-white"} no-underline font-bold`}    
             >CONTACT
+            </Link>
+            <Link  to="/Exam" onClick={()=>setIsOpen(false)}
+             className={`${activeTab =="Exam" ? "text-[#7EC5FF]":"text-white"} no-underline font-bold`}    
+            >Exam
             </Link>
             
            

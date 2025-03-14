@@ -15,6 +15,8 @@ import Product from "./Pages/Product";
 import Contact from "./Pages/Contact";
 import Features from "./Pages/Features";
 import Pricing from "./Pages/Pricing";
+import ExamLogin from "./Pages/ExamLogin";
+
 import Book from "./Pages/Book";
 import Tryforfree from "./Pages/Tryfofree";
 import Navbar from "./components/Navbar";
@@ -23,20 +25,20 @@ import Signup from "./Authentication/Signup";
 import Login from "./Authentication/Login";
 import ForgottenPassword from './Authentication/ForgottenPassword';
 import AdminDashboard from './Pages/AdminDashboard';
-import Exam from './Pages/Exam';
-
-
-
-
-
-
-
-
+// import Exam from './Pages/Exam';
+import { Provider } from 'react-redux';
+import store from '../store';
 
 
 
 function App() {
+
+ 
+
   return (
+
+    <Provider store={store}>
+
     <Router>
       <Navbar/>
     <Routes>
@@ -56,14 +58,14 @@ function App() {
 
 
       <Route path="/Tryforfree" element={<Tryforfree/>} />
-      <Route path="/Exam" element={<Exam/>} />
+      <Route path="/Exam" element={<ExamLogin/>} />
       <Route path="/AdminDashboard" element={<AdminDashboard/>}/>
       
     </Routes>
     <div style={{
-        position:"fixed",
-        bottom:"70px",
-        background:" #37CA2A",
+      position:"fixed",
+      bottom:"70px",
+      background:" #37CA2A",
         width:"55px",
         height:"55px",
         borderRadius:"50%",
@@ -72,15 +74,15 @@ function App() {
         alignItems:"center",
         justifyContent:"center",
         zIndex:1000
-       
-
+        
+        
       }}>
 
          <div
         style={{
           width:"45px",
-        height:"45px",
-        borderRadius:"50%",
+          height:"45px",
+          borderRadius:"50%",
         borderWidth:"2px",
         display:"flex",
         alignItems:"center",
@@ -103,6 +105,7 @@ function App() {
     
   </Router>
 
+           </Provider>
    
   )
 }
